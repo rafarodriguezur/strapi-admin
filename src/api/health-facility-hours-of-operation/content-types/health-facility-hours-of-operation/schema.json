@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "health_facility_hours_of_operations",
+  "info": {
+    "singularName": "health-facility-hours-of-operation",
+    "pluralName": "health-facility-hours-of-operations",
+    "displayName": "Horario"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hour": {
+      "type": "component",
+      "repeatable": true,
+      "component": "operation.hour"
+    }
+  }
+}

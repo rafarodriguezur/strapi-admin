@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "health_facility_faqs",
+  "info": {
+    "singularName": "health-facility-faq",
+    "pluralName": "health-facility-faqs",
+    "displayName": "Faq",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "pregunta_respuestas": {
+      "type": "component",
+      "repeatable": true,
+      "component": "data.faq"
+    }
+  }
+}

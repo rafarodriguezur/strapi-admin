@@ -1,0 +1,56 @@
+{
+  "collectionName": "components_operation_hours",
+  "info": {
+    "displayName": "hour",
+    "icon": "calendar",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "monday": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "tuesday": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "wednesday": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "thursday": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "friday": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "saturday": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "sunday": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "from": {
+      "type": "time",
+      "required": true,
+      "unique": true
+    },
+    "to": {
+      "type": "time",
+      "required": true,
+      "unique": true
+    }
+  }
+}
